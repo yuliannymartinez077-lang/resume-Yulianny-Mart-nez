@@ -1,0 +1,199 @@
+
+/* =================================
+   ESTILOS GENERALES
+================================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #fceff3;
+    color: #444;
+    line-height: 1.7;
+    padding: 30px 15px;
+}
+
+/* =================================
+   ENCABEZADO
+================================= */
+
+header {
+    max-width: 900px;
+    margin: 0 auto;
+    background: linear-gradient(135deg, #d98ca8, #b96889);
+    color: white;
+    text-align: center;
+    padding: 40px 25px;
+    border-radius: 15px 15px 0 0;
+}
+
+header img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid white;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+header h1 {
+    font-size: 30px;
+    margin-bottom: 8px;
+}
+
+header strong {
+    font-size: 18px;
+}
+
+header p {
+    margin-top: 12px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+/* =================================
+   CONTENIDO PRINCIPAL
+================================= */
+
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 35px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+section h2 {
+    color: #b96889;
+    font-size: 23px;
+    border-bottom: 2px solid #e8b6c9;
+    padding-bottom: 8px;
+    margin-bottom: 18px;
+}
+
+section h3 {
+    color: #a65376;
+    font-size: 18px;
+    margin-top: 18px;
+    margin-bottom: 8px;
+}
+
+section p {
+    margin-bottom: 12px;
+    text-align: justify;
+}
+
+/* =================================
+   LISTAS
+================================= */
+
+ul, ol {
+    padding-left: 25px;
+    margin-top: 10px;
+}
+
+li {
+    margin-bottom: 8px;
+    padding-left: 5px;
+}
+
+li::marker {
+    color: #c47796;
+}
+
+/* =================================
+   ENLACES
+================================= */
+
+main a {
+    color: #b96889;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+main a:hover {
+    color: #823c5b;
+    text-decoration: underline;
+}
+
+/* =================================
+   LINEAS DIVISORIAS
+================================= */
+
+hr {
+    display: none;
+}
+
+/* =================================
+   PIE DE PAGINA
+================================= */
+
+footer {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #b96889;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    border-radius: 0 0 15px 15px;
+}
+
+footer p {
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+/* =================================
+   DISEÑO RESPONSIVE
+================================= */
+
+@media (max-width: 600px) {
+
+    body {
+        padding: 10px;
+    }
+
+    header {
+        padding: 30px 15px;
+    }
+
+    header h1 {
+        font-size: 23px;
+    }
+
+    header p {
+        font-size: 14px;
+    }
+
+    main {
+        padding: 22px 18px;
+    }
+
+    section h2 {
+        font-size: 20px;
+    }
+
+    section h3 {
+        font-size: 16px;
+    }
+
+    footer {
+        padding: 20px 12px;
+    }
+}
